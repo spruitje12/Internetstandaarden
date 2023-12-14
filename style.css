@@ -1,0 +1,89 @@
+*{margin: 0;
+
+}
+
+header article{
+    background-image: url(images/bookbanner.jpeg);
+    padding: 3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+nav ul{
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 2em;
+    background-color: #556b2f;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 400ms ease;
+}
+
+nav a:hover{
+    color:#ffdab9;
+}
+
+body{
+    background-color: #fafad2;
+    font-family: 'Lucis', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 400%;
+}
+
+h2{
+    color: #2C2723;
+    display: flex; 
+    list-style-type: none;
+    gap: 7em;
+    justify-content: space-around;
+    font-size: 250%; 
+    margin-top: 2em;
+}
+
+article{ 
+   justify-content: center;
+    display: flex; 
+    gap: 1em;
+    margin-top: 2em;
+} 
+
+.containerboekborder{ 
+    margin-top: 2em;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    gap: 1em;
+    width: 100em;
+    height: 32em;
+}
+
+article img{
+    width: 20em;
+    height: 32em;
+}
+
+.sterren{
+    width: 8em;
+    height: 8em;
+}
+
+.blackborder{
+    border: solid 6px black;
+    text-align: center;
+    padding: 2em;
+}
+
+.onderstrepen{
+    text-decoration: underline;
+    color: aliceblue;
+}
